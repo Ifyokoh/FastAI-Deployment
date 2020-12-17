@@ -3,8 +3,8 @@
     height: 250px;
     background-image: url("test.jpg");
     background-size: cover;
-    background-position: center; */
-}
+    background-position: center;
+} */
 
 .result .text {
     /* background-color: rgb(34, 33, 33); */
@@ -58,14 +58,14 @@ footer p {
 
 }
 
-#uploadedImg {
-    /* width:intrinsic;
-    height:intrinsic; */
+/* #uploadedImg {
+    width:intrinsic;
+    height:intrinsic;
     widows: 400px;
     height:400px;
     max-width: 400px;
     max-height: 400px;
-}
+} */
 
 .lds-dual-ring {
     visibility: hidden;
