@@ -7,7 +7,7 @@
 }
 
 .result .text {
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(34, 33, 33);
     font-weight: 700;
     text-align: center;
     padding: 10px 0px 10px 0px;
@@ -60,8 +60,8 @@ footer p {
 #uploadedImg {
     width:intrinsic;
     height:intrinsic;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .lds-dual-ring {
