@@ -1,4 +1,4 @@
-# AI Class Monitor
+# FastAI Deployment
 
 <!-- ### Tools used
 
