@@ -1,13 +1,13 @@
-.result .image {
+/* .result .image {
     max-width: 33%px;
     height: 250px;
     background-image: url("test.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 .result .text {
-    background-color: rgb(34, 33, 33);
+    /* background-color: rgb(34, 33, 33); */
     font-weight: 700;
     text-align: center;
     padding: 10px 0px 10px 0px;
@@ -58,10 +58,12 @@ footer p {
 }
 
 #uploadedImg {
-    width:intrinsic;
-    height:intrinsic;
-    max-width: 800px;
-    max-height: 800px;
+    /* width:intrinsic;
+    height:intrinsic; */
+    width:100%;
+    height:100%;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .lds-dual-ring {
