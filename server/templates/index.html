@@ -17,19 +17,12 @@
 
     <div class="container">
         <div class="row">
-            <h1>Calculate Attentiveness Score</h1>
+            <h>Calculate Attentiveness Score</h1>
         </div>
         <div class="row">
-            <p>This is a very simple classifer </p>
-        </div>
-        <div class="row">
-            <p>Built with PyTorch/FastAI. Just upload an image from your computer and
-                it will be classified.
+            <p>Upload an image frame or a video from your computer to Calculate the score
             </p>
 
-        </div>
-        <div class="row">
-            <h2>Uploader</h2>
         </div>
         <div class="row">
             <img id="uploadedImg">
@@ -37,9 +30,9 @@
 
         <div class="row">
             <form enctype="multipart/form-data" method="POST" name="fileinfo">
-                <label>Upload your image:</label>
+                <label>Upload your File:</label>
                 <input type="file" name="file" required />
-                <input type="submit" value="Classify!" />
+                <input type="submit" value="Score!" />
             </form>
     
         </div>
@@ -54,16 +47,12 @@
 
 
 
-<img id="churros" src="../static/churros.png">
-
     <footer>
         <p>
-            <a class="github-button" href="https://github.com/sebastian-schuchmann" data-show-count="true"
-                aria-label="Follow @sebastian-schuchmann on GitHub">Follow @sebastian-schuchmann</a>
+            Research and Innovation Team
+            <!-- <a class="github-button" href="https://github.com/sebastian-schuchmann" data-show-count="true"
+                aria-label="Follow @sebastian-schuchmann on GitHub">Follow @sebastian-schuchmann</a> -->
 
-            <a class="github-button" href="https://github.com/Sebastian-Schuchmann/ChurrosSamosaClassifier"
-                data-show-count="true" data-icon="octicon-star"
-                aria-label="Star Sebastian-Schuchmann/ChurrosSamosaClassifier on GitHub">Star</a>
         </p>
 
     </footer>
