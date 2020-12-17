@@ -40,15 +40,15 @@ function DisplayResult(result) {
   divContainer = document.createElement("div")
   divContainer.className = "result"
 
-  divImage = document.createElement("div")
-  divImage.className = "image"
-  divImage.style.backgroundImage = "url('" + lastImage + "')";
+  // divImage = document.createElement("div")
+  // divImage.className = "image"
+  // divImage.style.backgroundImage = "url('" + lastImage + "')";
 
   divText = document.createElement("div")
   divText.appendChild(document.createTextNode(result))
   divText.className = "text"
 
-  divContainer.appendChild(divImage)
+  // divContainer.appendChild(divImage)
   divContainer.appendChild(divText)
   resultDiv.prepend(divContainer)
 }
