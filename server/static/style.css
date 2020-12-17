@@ -9,6 +9,7 @@
 .result .text {
     /* background-color: rgb(34, 33, 33); */
     font-weight: 700;
+    color: black;
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
