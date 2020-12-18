@@ -42,7 +42,7 @@ def predict():
       
     avgScore = attentiveness_score/len(score[0])
     
-    return f'Predictions: {score[0]} \n The Attentiveness Score for this Frame is: {avgScore:.01f}'
+    return f"Predictions: {score[0]}\nThe Attentiveness Score for this Frame is: {avgScore:.01f}"
 
 
 if __name__=='__main__':

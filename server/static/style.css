@@ -9,19 +9,18 @@
 .result .text {
     /* background-color: rgb(34, 33, 33); */
     font-weight: 700;
-    color: black;
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
 
-#churros {
+/* #churros {
     position: fixed;
     bottom: 0;
     width: 340px;
     height: 360px;
     left:3%;
     pointer-events: none;
-}
+} */
 
 
 .result {
@@ -30,7 +29,9 @@
 }
 
 .container {
-    margin-top: 5vh;
+    margin: auto;
+    width: 50%;
+    margin-top: 10vh;
 }
 
 .grid-container {
@@ -58,16 +59,14 @@ footer p {
 
 }
 
-/* #uploadedImg {
-    width:intrinsic;
-    height:intrinsic;
-    widows: 400px;
-    height:400px;
+#uploadedImg {
+    /* width:intrinsic;
+    height:intrinsic; */
     max-width: 400px;
     max-height: 400px;
-} */
+}
 
-.lds-dual-ring {
+/* .lds-dual-ring {
     visibility: hidden;
     display: inline-block;
     width: 80px;
@@ -84,13 +83,13 @@ footer p {
     border: 6px solid #606c76;
     border-color:  #606c76 transparent  #606c76 transparent;
     animation: lds-dual-ring 1.2s linear infinite;
-  }
-  @keyframes lds-dual-ring {
+  } */
+  /* @keyframes lds-dual-ring {
     0% {
       transform: rotate(0deg);
     }
     100% {
       transform: rotate(360deg);
     }
-  }
+  } */
   
