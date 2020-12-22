@@ -21,7 +21,7 @@ def index():
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     upload = request.files['file']
-    if upload.lower().endswith('.png'):
+    if upload.endswith('.png'):
       img = PILImage.create(upload)
       # return f'{label} ({torch.max(probs).item()*100:.0f}%)'
       score = learn.predict(img)
@@ -44,7 +44,7 @@ def predict():
       
       return f"Predictions: {score[0]}\nThe Attentiveness Score for this Frame is: {avgScore:.01f}"
 
-    elif upload.lower().endswith('.mp4'):
+    elif upload.endswith('.mp4'):
         for fn in upload.keys():
           vidcap = cv2.VideoCapture(fn)
         def getFrame(sec):
