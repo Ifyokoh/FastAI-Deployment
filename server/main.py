@@ -1,3 +1,5 @@
+import numpy as np
+import pandas as pd
 from flask import Flask, request
 from flask_cors import CORS
 from flask import render_template
